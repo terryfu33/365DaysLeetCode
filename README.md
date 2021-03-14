@@ -1,3 +1,10 @@
+My personal goal to complete at least one LeetCode Coding Challenge a day, for a year!
+
+
+
+
+
+
 268. Missing Number
     Given an array nums containing n distinct numbers in the range [0, n], return the only number in the range that is missing from the array.
 
