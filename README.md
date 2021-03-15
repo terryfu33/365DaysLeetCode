@@ -1,5 +1,13 @@
 My personal goal to complete at least one LeetCode Coding Challenge a day, for a year!
 
+4. Median of Two Sorted Arrays March 14 2021
+    Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.
+
+    Example:
+    Input: nums1 = [1,3], nums2 = [2]
+    Output: 2.00000
+    Explanation: merged array = [1,2,3] and median is 2.
+
 268. Missing Number  March 14 2021
     Given an array nums containing n distinct numbers in the range [0, n], return the only number in the range that is missing from the array.
 

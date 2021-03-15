@@ -1,3 +1,29 @@
+//4. Median of two Sorted Arrays
+var findMedianSortedArrays = function(nums1, nums2) {
+
+    var nums = [...nums1, ...nums2];
+    nums.sort(function(a, b){return a - b});
+    console.log(nums);
+    if(nums.length ===1){
+        return nums[0];
+    }
+    if(nums.length %2 != 0){
+        var half = nums.length +1 ;
+        half = half/2;
+       
+        return nums[half-1];
+    }
+    else{
+        
+        var half = nums.length/2;
+        
+        var out = nums[half]+nums[half-1];
+        
+        return out/2;
+    }
+    
+};
+
 //287.Find the Duplicate Number
 var findDuplicate = function(nums) {
     nums.sort(function(a, b){return a - b});
