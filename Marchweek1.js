@@ -1,3 +1,32 @@
+//98. Validate Binary Search Tree
+var isValidBST = function(root) {
+    
+    return isValid(root,null,null);
+};
+
+var isValid = function(root,low,high){
+    if(root == null){
+        return true;
+    }
+     if ((low != null && root.val <= low) || (high != null && root.val >= high)) {
+            return false;
+    }
+     return isValid(root.right, root.val, high) && isValid(root.left, low, root.val);
+}
+
+
+
+//420. Strong Password Checker
+var strongPasswordChecker = function(password) {
+    
+    if(password.length < 6){
+        return 6-password.length;
+    }
+
+};
+
+console.log(strongPasswordChecker("a"));
+
 //4. Median of two Sorted Arrays
 var findMedianSortedArrays = function(nums1, nums2) {
 
