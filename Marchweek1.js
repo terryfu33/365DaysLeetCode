@@ -1,3 +1,43 @@
+
+
+console.log(isRectangleOverlap([2,17,6,20],[3,8,6,20]));
+
+var shortestToChar = function(s, c) {
+    
+    var i;
+    var output = [];
+    var count = 10000000000;
+    for(i=0;i<s.length;i++){
+        var current = s.charAt(i);
+        if(current === c){
+            output[i] = 0;
+            count = 1;
+        }
+        else{
+            output[i] = count;
+            count++;
+        }
+    }
+    var j;
+    var count = -1;
+    var size  = output.length-1;
+    console.log(size);
+    for(j= size;j>=0;j--){
+        console.log(j);
+        if(count > 0){
+            if(output[j]>count){
+                output[j] = count;
+                count ++;
+            }
+        }
+        if(output[j] === 0){
+            count = 1;
+            console.log("a");
+        }
+    }
+    return output;
+};
+
 //98. Validate Binary Search Tree
 var isValidBST = function(root) {
     
@@ -14,8 +54,6 @@ var isValid = function(root,low,high){
      return isValid(root.right, root.val, high) && isValid(root.left, low, root.val);
 }
 
-
-
 //420. Strong Password Checker
 var strongPasswordChecker = function(password) {
     
@@ -25,7 +63,6 @@ var strongPasswordChecker = function(password) {
 
 };
 
-console.log(strongPasswordChecker("a"));
 
 //4. Median of two Sorted Arrays
 var findMedianSortedArrays = function(nums1, nums2) {
