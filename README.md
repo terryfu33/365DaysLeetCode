@@ -1,6 +1,12 @@
 My personal goal to complete at least one LeetCode Coding Challenge a day, for a year!
 
+910. Smallest Range II
+    Given an array A of integers, for each integer A[i] we need to choose either x = -K or x = K, and add x to A[i] (only once).
+    After this process, we have some array B.
+    Return the smallest possible difference between the maximum value of B and the minimum value of B.
 
+    Memory Usage: 41.2 MB, less than 42.62% of JavaScript online submissions for Smallest Range II.
+    
 1769. Minimum Number of Operations to Move All Balls to Each Box
     You have n boxes. You are given a binary string boxes of length n, where boxes[i] is '0' if the ith box is empty, and '1' if it contains one ball.
     In one operation, you can move one ball from a box to an adjacent box. Box i is adjacent to box j if abs(i - j) == 1. Note that after doing so, there may be more than one ball in some boxes.

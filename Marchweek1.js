@@ -1,3 +1,18 @@
+var smallestRangeII = function(A, K) {
+
+  
+    A.sort(function(a, b){return a - b});
+    var ans = A[A.length-1] - A[0];
+
+    for (var i = 0; i < A.length - 1; ++i) {
+        var a = A[i], b = A[i+1];
+        var high = Math.max(A[A.length-1] - K, a + K);
+        var low = Math.min(A[0] + K, b - K);
+        ans = Math.min(ans, high - low);
+    }
+    return ans;
+};
+
 var minOperations = function(boxes) {
     var output = [];
     var sum = 0;
