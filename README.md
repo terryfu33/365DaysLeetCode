@@ -1,5 +1,12 @@
 My personal goal to complete at least one LeetCode Coding Challenge a day, for a year!
 
+1487. Making File Names Unique
+    Given an array of strings names of size n. You will create n folders in your file system such that, at the ith minute, you will create a folder with the name names[i].
+    Since two files cannot have the same name, if you enter a folder name which is previously used, the system will have a suffix addition to its name in the form of (k), where, k is the smallest positive integer such that the obtained name remains unique.
+    Return an array of strings of length n where ans[i] is the actual name the system will assign to the ith folder when you create it.
+
+    Memory Usage: 27 MB, less than 79.84% of Python3 online submissions for Making File Names Unique.
+
 179. Largest Number
     Given a list of non-negative integers nums, arrange them such that they form the largest number.
     Note: The result may be very large, so you need to return a string instead of an integer.
