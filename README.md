@@ -1,19 +1,29 @@
 My personal goal to complete at least one LeetCode Coding Challenge a day, for a year!
 
+
+1769. Minimum Number of Operations to Move All Balls to Each Box
+    You have n boxes. You are given a binary string boxes of length n, where boxes[i] is '0' if the ith box is empty, and '1' if it contains one ball.
+    In one operation, you can move one ball from a box to an adjacent box. Box i is adjacent to box j if abs(i - j) == 1. Note that after doing so, there may be more than one ball in some boxes.
+    Return an array answer of size n, where answer[i] is the minimum number of operations needed to move all the balls to the ith box.
+    Each answer[i] is calculated considering the initial state of the boxes.
+
+    Runtime: 88 ms, faster than 100.00% 
+    Memory Usage: 42.6 MB, less than 100.00% 
+
 151. Reverse Words in a String
     Given an input string s, reverse the order of the words.
     A word is defined as a sequence of non-space characters. The words in s will be separated by at least one space.
     Return a string of the words in reverse order concatenated by a single space.
     Note that s may contain leading or trailing spaces or multiple spaces between two words. The returned string should only have a single space separating the words. Do not include any extra spaces.
 
-    Runtime: 32 ms, faster than 74.08% of Python3 online submissions for Reverse Words in a String.
-    Memory Usage: 14.5 MB, less than 43.34% of Python3 online submissions for Reverse Words in a String.
+    Runtime: 32 ms, faster than 74.08% 
+    Memory Usage: 14.5 MB, less than 43.34% 
 
 98. Validate Binary Search Tree
     Given the root of a binary tree, determine if it is a valid binary search tree (BST).
 
-    Runtime: 88 ms, faster than 78.93% of JavaScript online submissions for Validate Binary Search Tree.
-    Memory Usage: 42.5 MB, less than 76.13% of JavaScript online submissions for Validate Binary Search Tree.
+    Runtime: 88 ms, faster than 78.93% 
+    Memory Usage: 42.5 MB, less than 76.13% 
 
 
 4. Median of Two Sorted Arrays 

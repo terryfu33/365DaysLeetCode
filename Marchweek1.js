@@ -1,6 +1,27 @@
-
-
-console.log(isRectangleOverlap([2,17,6,20],[3,8,6,20]));
+var minOperations = function(boxes) {
+    var output = [];
+    var sum = 0;
+    var afterN = 0;
+    var prevN = 0;
+    for(var i = 0;i<boxes.length;i++){        
+        
+        if(boxes[i]== 1){                
+            sum+= Math.abs(i);
+            afterN ++;
+        }
+        
+        output[0] = sum;
+    }
+    for(var j = 1;j<boxes.length;j++){
+        if(boxes[j-1] === "1"){
+            prevN += 1;
+            afterN -= 1;
+        }
+        sum = sum-afterN+prevN;
+        output[j] = sum;
+    }
+    return output;
+};
 
 var shortestToChar = function(s, c) {
     
