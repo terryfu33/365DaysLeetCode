@@ -1,6 +1,22 @@
+var largestNumber = function(nums) {
+    let out = "";
+    nums.sort(comparator);
+    for (const num of nums) {
+        out += num;
+    }
+    return out == 0 ? "0" : output;
+};
+
+var comparator = function(a, b) {
+    const s1 = "" + a + b,
+        s2 = "" + b + a;
+    return s2 - s1;
+};
+
+
+
 var smallestRangeII = function(A, K) {
 
-  
     A.sort(function(a, b){return a - b});
     var ans = A[A.length-1] - A[0];
 

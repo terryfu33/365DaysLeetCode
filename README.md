@@ -1,4 +1,10 @@
 My personal goal to complete at least one LeetCode Coding Challenge a day, for a year!
+179. Largest Number
+    Given a list of non-negative integers nums, arrange them such that they form the largest number.
+    Note: The result may be very large, so you need to return a string instead of an integer.
+    
+    Runtime: 72 ms, faster than 99.15% of JavaScript online submissions for Largest Number.
+    Memory Usage: 40.7 MB, less than 54.93% of JavaScript online submissions for Largest Number.
 
 910. Smallest Range II
     Given an array A of integers, for each integer A[i] we need to choose either x = -K or x = K, and add x to A[i] (only once).
