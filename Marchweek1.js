@@ -1,3 +1,37 @@
+var isPowerOfTwo = function(n) {
+    
+    var count  = 0;
+    var current = 0;
+    while(current <= n){
+        current = Math.pow(2,count);
+        if(current==n){
+            return true;
+            
+        }
+        count++;
+    }
+    return false;
+};
+
+var findDisappearedNumbers = function(nums) {
+    var result = [];
+    for (var i = 0;i<nums.length;i++) {
+         var index = Math.abs(nums[i])-1;
+         if (nums[index] > 0) {
+             nums[index] = -nums[index];
+         }
+     }
+
+     for (var i = 0; i < nums.length; i++) {
+         if (nums[i] > 0) {
+             result.push(i+1);
+         }
+     }
+     
+     return result;
+};
+
+
 var largestNumber = function(nums) {
     let out = "";
     nums.sort(comparator);

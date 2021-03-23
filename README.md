@@ -1,5 +1,15 @@
 My personal goal to complete at least one LeetCode Coding Challenge a day, for a year!
 
+231. Power of Two
+    Given an integer n, return true if it is a power of two. Otherwise, return false.
+    An integer n is a power of two, if there exists an integer x such that n == 2x.
+
+
+448. Find All Numbers Disappeared in an Array
+    Given an array of integers where 1 ≤ a[i] ≤ n (n = size of array), some elements appear twice and others appear once.
+    Find all the elements of [1, n] inclusive that do not appear in this array.
+    Could you do it without extra space and in O(n) runtime? You may assume the returned list does not count as extra space.
+
 1487. Making File Names Unique
 
     Given an array of strings names of size n. You will create n folders in your file system such that, at the ith minute, you will create a folder with the name names[i].
