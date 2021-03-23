@@ -1,11 +1,19 @@
 My personal goal to complete at least one LeetCode Coding Challenge a day, for a year!
 
+
+669. Trim a Binary Search Tree
+    Given the root of a binary search tree and the lowest and highest boundaries as low and high, trim the tree so that all its elements lies in [low, high]. Trimming the tree should not change the relative structure of the elements that will remain in the tree (i.e., any node's descendant should remain a descendant). It can be proven that there is a unique answer.
+
+    Return the root of the trimmed binary search tree. Note that the root may change depending on the given bounds.
+
 231. Power of Two
+
     Given an integer n, return true if it is a power of two. Otherwise, return false.
     An integer n is a power of two, if there exists an integer x such that n == 2x.
 
 
 448. Find All Numbers Disappeared in an Array
+
     Given an array of integers where 1 ≤ a[i] ≤ n (n = size of array), some elements appear twice and others appear once.
     Find all the elements of [1, n] inclusive that do not appear in this array.
     Could you do it without extra space and in O(n) runtime? You may assume the returned list does not count as extra space.
