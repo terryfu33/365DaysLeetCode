@@ -1,3 +1,18 @@
+var heightChecker = function(heights) {
+    var copy = [...heights];
+    copy.sort(function(a, b){return a - b});
+    var output = 0;
+    for(var i= 0;i<copy.length;i++){
+        if(copy[i] != heights[i]){
+            output++;
+        }
+    }
+    console.log(copy);
+    console.log(heights);
+    return output;
+    
+};
+
 var isPowerOfTwo = function(n) {
     
     var count  = 0;
