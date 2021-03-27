@@ -1,5 +1,13 @@
 My personal goal to complete at least one LeetCode Coding Challenge a day, for a year!
 
+223. Rectangle Area
+
+    Given the coordinates of two rectilinear rectangles in a 2D plane, return the total area covered by the two rectangles.
+    The first rectangle is defined by its bottom-left corner (A, B) and its top-right corner (C, D).
+    The second rectangle is defined by its bottom-left corner (E, F) and its top-right corner (G, H).
+
+    Runtime: 136 ms, faster than 94.06% of JavaScript online submissions for Rectangle Area.
+
 1051. Height Checker
 
     Students are asked to stand in non-decreasing order of heights for an annual photo.

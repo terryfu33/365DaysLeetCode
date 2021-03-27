@@ -1,3 +1,23 @@
+var computeArea = function(A, B, C, D, E, F, G, H) {
+    
+    var rectOneArea = (C -A) * (D -B);
+    var rectTwoArea = (G -E) * (H -F);
+   
+    var area = rectOneArea + rectTwoArea;
+        
+    
+    var left =  Math.max(A, E); 
+    var right =  Math.min(C, G);  
+    var bottom =  Math.max(B, F);
+    var top =  Math.min(D, H);
+      
+    var overlapArea = 0;
+    if(right > left && top > bottom)
+        overlapArea = (right - left) * (top-bottom);
+        
+    return area-overlapArea;
+};
+
 var heightChecker = function(heights) {
     var copy = [...heights];
     copy.sort(function(a, b){return a - b});
