@@ -1,5 +1,12 @@
 My personal goal to complete at least one LeetCode Coding Challenge a day, for a year!
 
+961. N-Repeated Element in Size 2N Array
+
+    In a array A of size 2N, there are N+1 unique elements, and exactly one of these elements is repeated N times.
+    Return the element repeated N times.
+    Runtime: 0 ms, faster than 100.00% of Java online submissions for N-Repeated Element in Size 2N Array.
+    Memory Usage: 39.7 MB, less than 64.57% of Java online submissions for N-Repeated Element in Size 2N Array.
+
 223. Rectangle Area
 
     Given the coordinates of two rectilinear rectangles in a 2D plane, return the total area covered by the two rectangles.
