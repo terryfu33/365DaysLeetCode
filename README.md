@@ -1,5 +1,5 @@
 My personal goal to complete at least one LeetCode Coding Challenge a day, for a year!
-
+#### Note* This project is now not gonna be updated here. New link can be found at [link](https://terryfu.ca/other)
 1395. Count Number of Teams
 
     There are n soldiers standing in a line. Each soldier is assigned a unique rating value.
